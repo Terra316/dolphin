@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+- port: 6080
+  onOpen: notify
+- port: 5900
+  onOpen: ignore
+
+vscode:
+  extensions:
+    - twxs.cmake@0.0.17:aQNzlYa74rJFJ5/BnUF1yA==
+    - ms-vscode.cmake-tools@1.5.3:QI2POGDzx7mhyCmZyf/3vg==
+    - webfreak.debug@0.25.0:F9uLpAOde6r0l7rgMC8LTQ==
